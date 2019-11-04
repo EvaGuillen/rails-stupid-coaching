@@ -1,0 +1,41 @@
+// Place all the styles related to the questions_controller controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$gray: #F4F4F4;
+
+body {
+  background: $gray;
+  font-family: arial;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+.form {
+  display: flex;
+
+}
+
+.bouton {
+  height: 30px;
+  width: 75px;
+  color: white;
+  background-color: blue;
+  border-radius: 2px;
+  border: none;
+}
+
